@@ -1,6 +1,6 @@
 from flask import Flask, send_file, request
 
-app = Flask(__name__)
+app = Flask(_name_)
 
 
 @app.route("/")
@@ -38,7 +38,5 @@ def services():
     return "We offer the following services: web development, data analysis, SEO."
 
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     app.run(debug=True, port=8081, host="0.0.0.0")
-
-
